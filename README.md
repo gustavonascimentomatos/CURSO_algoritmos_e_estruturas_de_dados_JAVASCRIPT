@@ -15,19 +15,22 @@
 3. Pilhas
     - Introdução às Pilhas
     - Implementação e Teste inicial
-    - Exercício decimal para binário pt1
-    - Exercício conversão de base pt1
+    - Exercício decimal para binário
+    - Exercício conversão de base
 4. Filas
     - Introdução às Filas
     - Implementação e teste inicial
-    - Fila de prioridades pt1
-    - Fila circular (jogo da batata quente) pt1
+    - Fila de prioridades
+    - Fila circular (jogo da batata quente)
 5. Listas ligadas
     - Introdução às Listas ligadas
     - Implementação inicial
     - Métodos: append(), toString(), insert(), indexOf(), remove(), isEmpty, size() e getHead()
     - Análise gráfica
 6. Listas duplamente ligadas
+    - Introdução às Listas duplamente ligadas
+    - Métodos: insert() e removeAt()
+    - Análise gráfica
 7. Conjuntos
 8. Dicionários
 9. Hashes
