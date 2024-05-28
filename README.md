@@ -32,6 +32,10 @@
     - Métodos: insert() e removeAt()
     - Análise gráfica
 7. Conjuntos
+    - Introdução aos Conjuntos
+    - Implementação e Teste inicial
+    - Métodos: union(), intersection(), difference(), subset()
+    - Análise gráfica
 8. Dicionários
 9. Hashes
 10. Árvores
