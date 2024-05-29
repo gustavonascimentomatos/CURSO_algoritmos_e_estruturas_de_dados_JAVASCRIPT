@@ -1,4 +1,4 @@
-function Conjunto() {
+ function Conjunto() {
     var items = {};
 
     this.add = function(value) { // Adiciona um novo item ao conjunto
