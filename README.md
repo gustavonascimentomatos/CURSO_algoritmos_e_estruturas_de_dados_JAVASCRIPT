@@ -37,7 +37,15 @@
     - Métodos: union(), intersection(), difference(), subset()
     - Análise gráfica
 8. Dicionários
+    - Introdução aos dicionários
+    - Implementando os métodos
+    - Testes e análise do código
 9. Hashes
+    - Introdução a HashTable
+    - Implementação inicial, testes e análise do código
+    - Tratando colisões
+    - Métodos get(), put(), remove(), toString()
+    - Análise gráfica
 10. Árvores
 11. Grafos
 12. Ordenação
