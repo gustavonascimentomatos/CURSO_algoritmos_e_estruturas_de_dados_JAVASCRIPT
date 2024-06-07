@@ -82,6 +82,13 @@ function BinarySearchTree() { // Árvore de busca binária
         }
     }
 
+    var findMinNode = function(node) {
+        while ( node && node.left !== null) {
+            node = node.left;
+        }
+        return node;
+    }
+
     this.min = function() { // Retorna a menor chave
         return minNode(root);
     }
@@ -94,13 +101,6 @@ function BinarySearchTree() { // Árvore de busca binária
             return node.key
         }
         return null;
-    }
-
-    var findMinNode = function(node) {
-        while ( node && node.left !== null) {
-            node = node.left;
-        }
-        return node;
     }
 
     this.max = function() { // Retorna a menor chave
@@ -122,7 +122,7 @@ function BinarySearchTree() { // Árvore de busca binária
     }
 
     var inOrderTraverseNode = function(node, callback) {
-        if (node) {
+        if (node !== null) {
             inOrderTraverseNode(node.left, callback);
             callback(node.key);
             inOrderTraverseNode(node.right, callback);
@@ -134,7 +134,7 @@ function BinarySearchTree() { // Árvore de busca binária
     }
 
     var preOrderTraverseNode = function(node, callback) {
-        if (node) {
+        if (node !== null) {
             callback(node.key);
             preOrderTraverseNode(node.left, callback);
             preOrderTraverseNode(node.right, callback);
@@ -146,12 +146,16 @@ function BinarySearchTree() { // Árvore de busca binária
     }
 
     var postOrderTraverseNode = function(node, callback) {
-        if (node) {
+        if (node !== null) {
             postOrderTraverseNode(node.left, callback);
             postOrderTraverseNode(node.right, callback);
             callback(node.key);
         }
     }
+}
+
+function printNode(value) {
+    console.log(value);
 }
 
 var tree = new BinarySearchTree();
@@ -174,3 +178,11 @@ tree.insert(6);
 
 console.log(tree.search(13));
 console.log(tree.search(16));
+console.log("Menor valor: " + tree.min());
+console.log("Maior valor: " +tree.max ());
+
+tree.remove(6);
+tree.remove(5);
+tree.remove(15);
+
+tree.inOrderTraverse(printNode);

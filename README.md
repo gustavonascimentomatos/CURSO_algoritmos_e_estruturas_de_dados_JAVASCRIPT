@@ -42,11 +42,17 @@
     - Testes e análise do código
 9. Hashes
     - Introdução a HashTable
-    - Implementação inicial, testes e análise do código
+    - 2. Implementando os métodos
     - Tratando colisões
     - Métodos get(), put(), remove(), toString()
     - Análise gráfica
 10. Árvores
+    - Introdução às árvores
+    - Implementação inicial dos métodos
+    - Métodos insert(), search(), remove(), min(), max(), inOrder(), preOrder() e postOrder()
+    - Entendendo a recursividade
+    - Testes e análise do código
+    - Análise gráfica
 11. Grafos
 12. Ordenação
 13. Pratique o seu conhecimento!
