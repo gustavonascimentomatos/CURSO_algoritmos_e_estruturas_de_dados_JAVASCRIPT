@@ -1,10 +1,10 @@
 # [CURSO] - Algoritmos e Estruturas De Dados em JAVASCRIPT
-# Instrutor: Everton Braga
-# Conteúdo do curso: 117 aulas • Duração total: 12h 27m
+> # Instrutor: Everton Braga
+> # Conteúdo do curso: 117 aulas • Duração total: 12h 27m
 
-1. Introdução
+### Módulo 1. Introdução
     - Introdução ao curso
-2. Arrays
+### Módulo 2. Arrays
     - Introdução ao Array
     - Criando e inicializando arrays
     - Acessando elementos através da iteração
@@ -12,52 +12,52 @@
     - Inserindo elementos em uma posição específica
     - Arrays bidimensionais
     - Arrays tridimensionais
-3. Pilhas
+### Módulo 3. Pilhas
     - Introdução às Pilhas
     - Implementação e Teste inicial
     - Exercício decimal para binário
     - Exercício conversão de base
-4. Filas
+### Módulo 4. Filas
     - Introdução às Filas
     - Implementação e teste inicial
     - Fila de prioridades
     - Fila circular (jogo da batata quente)
-5. Listas ligadas
+### Módulo 5. Listas ligadas
     - Introdução às Listas ligadas
     - Implementação inicial
     - Métodos: append(), toString(), insert(), indexOf(), remove(), isEmpty, size() e getHead()
     - Análise gráfica
-6. Listas duplamente ligadas
+### Módulo 6. Listas duplamente ligadas
     - Introdução às Listas duplamente ligadas
     - Métodos: insert() e removeAt()
     - Análise gráfica
-7. Conjuntos
+### Módulo 7. Conjuntos
     - Introdução aos Conjuntos
     - Implementação e Teste inicial
     - Métodos: union(), intersection(), difference(), subset()
     - Análise gráfica
-8. Dicionários
+### Módulo 8. Dicionários
     - Introdução aos dicionários
     - Implementando os métodos
     - Testes e análise do código
-9. Hashes
+### Módulo 9. Hashes
     - Introdução a HashTable
     - 2. Implementando os métodos
     - Tratando colisões
     - Métodos get(), put(), remove(), toString()
     - Análise gráfica
-10. Árvores
+### Módulo 10. Árvores
     - Introdução às árvores
     - Implementação inicial dos métodos
     - Métodos insert(), search(), remove(), min(), max(), inOrder(), preOrder() e postOrder()
     - Entendendo a recursividade
     - Testes e análise do código
     - Análise gráfica
-11. Grafos
+### Módulo 11. Grafos
     - Introdução a grafos
     - Implementação e Teste inicial
     - Busca em largura (BFS)
     - Busca em profundidade (DFS)
-12. Ordenação
+### Módulo 12. Ordenação
     - Implementação inicial
     - Métodos Bubble sort(), Selection sort(), Insertion sort(), Merge sort(), Quick sort()
