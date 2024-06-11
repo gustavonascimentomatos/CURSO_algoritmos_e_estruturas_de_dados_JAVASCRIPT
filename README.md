@@ -54,10 +54,10 @@
     - Testes e análise do código
     - Análise gráfica
 11. Grafos
+    - Introdução a grafos
+    - Implementação e Teste inicial
+    - Busca em largura (BFS)
+    - Busca em profundidade (DFS)
 12. Ordenação
-13. Pratique o seu conhecimento!
-
-
-
-
-
+    - Implementação inicial
+    - Métodos Bubble sort(), Selection sort(), Insertion sort(), Merge sort(), Quick sort()
