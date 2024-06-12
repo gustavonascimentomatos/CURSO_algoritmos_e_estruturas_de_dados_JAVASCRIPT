@@ -1,6 +1,6 @@
 # [CURSO] - Algoritmos e Estruturas De Dados em JAVASCRIPT
-> # Instrutor: Everton Braga
-> # Conteúdo do curso: 117 aulas • Duração total: 12h 27m
+> ## Instrutor: Everton Braga
+> ## Conteúdo do curso: 117 aulas • Duração total: 12h 27m
 
 ### Módulo 1. Introdução
     - Introdução ao curso
